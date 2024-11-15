@@ -1,34 +1,23 @@
 # Grocery Store Management System
 
-The **Grocery Store Management System** is a comprehensive application designed to streamline and automate the operations of a grocery store. It allows for inventory management, sales tracking, and customer management, providing an intuitive interface for the store management team. Built using a combination of **Python**, **HTML**, **CSS**, **SQL**, **JavaScript**, and **Electron**, this system facilitates real-time data management and efficient customer service, with a cross-platform desktop application interface.
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+The **Grocery Store Management System** is a robust application designed to simplify and automate the operations of a grocery store. It handles inventory management, sales tracking, and customer management with a seamless, intuitive interface. Built using **Python**, **HTML**, **CSS**, **SQL**, **JavaScript**, and **Electron**, this system provides a cross-platform desktop application for efficient store management.
 
 ## Features
 
-- **Inventory Management**: Manage product stock, update quantities, and track product details.
-- **Sales Tracking**: Keep track of customer purchases, generate bills, and monitor sales performance.
-- **Customer Management**: Store customer information and maintain purchase history.
-- **Real-Time Updates**: The system updates inventory and sales data in real-time using JavaScript for dynamic interactions.
-- **Database Integration**: SQL database for storing and retrieving customer, sales, and product data efficiently.
-- **Cross-Platform Desktop Application**: Using **Electron**, this system can be run as a desktop application on Windows, macOS, and Linux.
-- **User-Friendly Interface**: Developed using HTML and CSS for a simple and easy-to-navigate interface.
+- **Inventory Management**: Add, update, and manage product stock.
+- **Sales Tracking**: Track customer purchases, generate invoices, and analyze sales.
+- **Customer Management**: Store and manage customer data and purchase history.
+- **Real-Time Updates**: Dynamic content updates powered by JavaScript.
+- **Cross-Platform Desktop App**: Built with **Electron** to run on Windows, macOS, and Linux.
+- **User-Friendly Interface**: Clean, responsive UI with **HTML** and **CSS**.
 
 ## Technologies Used
 
-- **Python**: Backend logic, sales processing, and server-side functionality.
-- **HTML & CSS**: Frontend structure and design for an interactive, clean interface.
-- **JavaScript**: Real-time updates for the UI, enabling dynamic content interactions.
-- **SQL**: Database management for product, customer, and sales data storage.
-- **Electron**: Framework for building a cross-platform desktop application, wrapping the web-based frontend and Python backend into a standalone executable.
+- **Python**: Backend logic for processing sales and managing data.
+- **HTML & CSS**: Frontend layout and design for an interactive user experience.
+- **JavaScript**: Real-time UI updates and dynamic interactions.
+- **SQL**: Database management for storing and querying product, customer, and sales data.
+- **Electron**: Framework for creating a cross-platform desktop application.
 
 ## Installation
 
@@ -36,23 +25,27 @@ The **Grocery Store Management System** is a comprehensive application designed 
    ```bash
    git clone https://github.com/puneethrajg/grocery-store-management-system.git
    ```
+
 2. **Navigate to the Project Directory**:
    ```bash
    cd grocery-store-management-system
    ```
+
 3. **Install Backend Dependencies**:
    - Python:
      ```bash
      pip install -r requirements.txt
      ```
-4. **Install Frontend Dependencies**:
-   - Install Node.js (if not already installed): https://nodejs.org/
-   - Install Electron and JavaScript libraries:
+
+4. **Install Frontend and Electron**:
+   - Install **Node.js** (if not already installed): [Node.js](https://nodejs.org/)
+   - Install **Electron** and other JavaScript dependencies:
      ```bash
      npm install
      ```
+
 5. **Setup Database**:
-   - Create and configure your database using the provided SQL scripts.
+   - Create and configure your database using the provided SQL scripts (`schema.sql`).
 
 ## Usage
 
@@ -60,27 +53,24 @@ The **Grocery Store Management System** is a comprehensive application designed 
    ```bash
    python server.py
    ```
+
 2. **Launch the Frontend**:
-   - To start the web interface, open `index.html` in your preferred browser.
-   - Or, run the **Electron** app by executing the following command in the project directory:
+   - For the web version, open `index.html` in a browser.
+   - For the **Electron** desktop app, run:
      ```bash
      npm start
      ```
-   - This will open the application as a desktop app on your system.
 
-3. **Use the System**:
-   - Add, update, and remove products from the inventory.
-   - Track customer purchases and generate receipts.
-   - Monitor sales and inventory in real time.
+3. **Interact with the System**:
+   - Manage products, track sales, and handle customer data through the user interface.
+   - All updates are reflected in real-time.
 
 ## Contributing
 
-Contributions are welcome! Please follow the steps below:
-
 1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
+2. Create a new branch for your changes.
+3. Commit your changes and push them to your fork.
+4. Open a pull request to contribute to the main project.
 
 ## License
 
@@ -88,9 +78,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or issues, please reach out to (punithraj400@gmail.com [Puneeth Raj G]).
-
----
-
-Thank you for using the **Grocery Store Management System**! We hope this project helps you efficiently manage your grocery store operations.
-
+For inquiries or support, reach out to:  
+**Email**: [punithraj400@gmail.com](mailto:punithraj400@gmail.com)  
+**Name**: Puneeth Raj Gorigam
