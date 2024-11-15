@@ -45,7 +45,7 @@ The **Grocery Store Management System** is a robust application designed to simp
      ```
 
 5. **Setup Database**:
-   - Create and configure your database using the provided SQL scripts (`schema.sql`).
+   - Create and configure your database using the provided SQL scripts (`GSMS.sql`).
 
 ## Usage
 
